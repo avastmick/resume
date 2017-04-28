@@ -1,8 +1,8 @@
 Michael W Clarke
 ===============
 
-<https://www.linkedin.com/in/mickclarke138/>\
-<mick.clarke@outlook.com>\
+<https://www.linkedin.com/in/mickclarke138/>
+<mick.clarke@outlook.com>
 +86 156 1858 7365
 
 Education
