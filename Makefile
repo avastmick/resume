@@ -1,27 +1,30 @@
-all: html pdf docx clean
+SRC = $(wildcard *.md)
 
-pdf: resume.pdf
-resume.pdf: resume.md
-	pandoc --standalone --template styles/main.tex \
-	--from markdown --to context \
-	-V papersize=A4 \
-	-o resume.tex resume.md; \
-	context resume.tex
-	mv resume.pdf draft/.
+PDFS=$(SRC:.md=.pdf)
+HTML=$(SRC:.md=.html)
+LATEX_TEMPLATE=./pandoc-templates/default.latex
 
-html: resume.html
-resume.html: styles/main.css resume.md
-	pandoc --standalone -H styles/main.css \
-        --from markdown --to html \
-        -o resume.html resume.md
-	mv resume.html draft/.
+all:    clean $(PDFS) $(HTML)
 
-docx: resume.docx
-resume.docx: resume.md
-	pandoc -s -S resume.md -o resume.docx
-	mv resume.docx draft/.	
+pdf:   clean $(PDFS)
+html:  clean $(HTML)
+
+%.html: %.md
+	python resume.py html $(GRAVATAR_OPTION) < $< | pandoc -t html -c resume.css -o $@
+
+%.pdf:  %.md $(LATEX_TEMPLATE)
+	python resume.py tex < $< | pandoc $(PANDOCARGS) --template=$(LATEX_TEMPLATE) -H header.tex -o $@
+
+ifeq ($(OS),Windows_NT)
+  # on Windows
+  RM = cmd //C del
+else
+  # on Unix
+  RM = rm -f
+endif
 
 clean:
-	rm resume.tex
-	rm resume.tuc
-	rm resume.log
+	$(RM) *.html *.pdf
+
+$(LATEX_TEMPLATE):
+	git submodule update --init

@@ -1,100 +1,54 @@
-Johnny Coder
-============
+Michael W Clarke
+===============
 
-----
-
->  In this style, the resume starts with a blockquote, where
->  you can briefly list your specialties, or include a salient
->  quote. Ending a line with a backslash forces a line break.
-
-----
+![Profile photo](/images/profile-2.png "profile")\
+<https://www.linkedin.com/in/mickclarke138/>\
+<mick.clarke@outlook.com>\
++86 156 1858 7365
 
 Education
 ---------
 
-2010-2014 (expected)
-:   **PhD, Computer Science**; Awesome University (MyTown)
+*   **University of York** (UK)
 
-    *Thesis title: Deep Learning Approaches to the Self-Awesomeness
-     Estimation Problem*
+    *M.Sc. Information Processing*, 1998 - 99
 
-2007-2010
-:   **BSc, Computer Science and Electrical Engineering**; University of
-    HomeTown (HomeTown)
+    - *Project: Virtual Camera Positioning in Graphical Worlds*. The problem domain was to create an artificial intelligence (AI) algorithm using real-time 3D geometric / NLR analysis that would allow an optimal virtual camera position to be realized when viewing targets in a dynamic graphical world. The calculations would have overriding rule sets preventing non-natural viewing positions, yet avoiding target occlusion. The experimental work was written in C using the OpenGL graphics libraries. The work contributed to the work of my tutor Professor Patrick Olivier a world-renowned computer scientist in the fields of AI, virtual reality and avatar control.
 
-    *Minor: Awesomeology*
+*   **University of York** (UK)
 
-Experience
-----------
+    *B.A. (Hons.) Literature*, 1995 - 98
 
-**Your Most Recent Work Experience:**
+    - *Dissertation: Moby Dick*.
 
-Short text containing the type of work done, results obtained,
-lessons learned and other remarks. Can also include lists and
-links:
+Work Experience
+---------------
 
-* First item
+*   **New Zealand Defence Force** (Wellington, New Zealand)
 
-* Item with [link](http://www.example.com). Links will work both in
-  the html and pdf versions.
+    *Architect and technical lead*, November 2014 - June 2016
 
-**That Other Job You Had**
+    -   Architect and technology lead for Secret Enhancement Programme and Information Environment. 
+    -   This programme completely overhauls the NZDF's military operational ICT capability and will provide the technology foundations to ensure that fully participate in the information-driven warfare of today and do so in a highly secure manner. The solution I have designed is bleeding-edge and innovatory; it completely transforms the way that ICT is to be delivered within the organisation. 
+    -   A fully automated outcome to meet flexible military operational needs of the New Zealand Defence Force.
+    -    The solution includes a datacenter backend and hosting for a variety of applications, through to a user desktop.
+    -    Security of the solution was, of course, vital, and compliance to both local and international security standards was required.
+    -    The solution was delivered using Ancible, Vagrant, Packer onto a VMWare virtualized environment. The code base was secured and managed using GitHub Enterprise.
 
-Also with a short description.
+*   **\LaTeX\ + pdflatex**
 
-Technical Experience
---------------------
+    *Senior Resumé Maker*, 2008 - 2010
 
-My Cool Side Project
-:   For items which don't have a clear time ordering, a definition
-    list can be used to have named items.
+    -   Edited verbose \LaTeX\ documents in a text editor
+    -   Mixed content and presentation to achieve pixel-perfection
+    -   Installed and configured the unusual TeX setups required by the
+        best-looking \LaTeX\ resumés
 
-    * These items can also contain lists, but you need to mind the
-      indentation levels in the markdown source.
-    * Second item.
 
-Open Source
-:   List open source contributions here, perhaps placing emphasis on
-    the project names, for example the **Linux Kernel**, where you
-    implemented multithreading over a long weekend, or **node.js**
-    (with [link](http://nodejs.org)) which was actually totally
-    your idea...
+References
+------
 
-Programming Languages
-:   **first-lang:** Here, we have an itemization, where we only want
-    to add descriptions to the first few items, but still want to
-    mention some others together at the end. A format that works well
-    here is a description list where the first few items have their
-    first word emphasized, and the last item contains the final few
-    emphasized terms. Notice the reasonably nice page break in the pdf
-    version, which wouldn't happen if we generated the pdf via html.
+*   Professional references can be provided on request
 
-:   **second-lang:** Description of your experience with second-lang,
-    perhaps again including a [link] [ref], this time placing the url
-    reference elsewhere in the document to reduce clutter (see source
-    file). 
 
-:   **obscure-but-impressive-lang:** We both know this one's pushing
-    it.
 
-:   Basic knowledge of **C**, **x86 assembly**, **forth**, **Common Lisp**
-
-[ref]: https://github.com/githubuser/superlongprojectname
-
-Extra Section, Call it Whatever You Want
-----------------------------------------
-
-* Human Languages:
-
-     * English (native speaker)
-     * ???
-     * This is what a nested list looks like.
-
-* Random tidbit
-
-* Other sort of impressive-sounding thing you did
-
-----
-
-> <email@example.com> • +00 (0)00 000 0000 • XX years old\
-> address - Mytown, Mycountry

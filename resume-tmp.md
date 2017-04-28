@@ -3,34 +3,10 @@ Michael Clarke
 Writer and Technologist
 mick.clarke@outlook.com
 Summary
-There's always a better way: always.
-At the cutting edge: I'm an innovative technologist who enjoys creating valuable change using the latest
- technologies.
-Not run of the mill: I bring clear leadership and solutions to any problem area and I ensure that success is
- achieved through simple innovation.
-Experienced: I have extensive experience across a number of industries and in all aspects of commercial
- product development and project delivery; in particular I excel at the core processes and practicalities required
- in aligning detailed technical solution design with business needs and aspirations.
-Capable: I have been proven to enable teams to meet the most aggressive of time-frames and budgets, time and
- again. Above all I like to make this all fun!
+
 Experience
 Author
-August 2016 - Present
-Architect at New Zealand Defence Force
-November 2014 - June 2016 (1 year 7 months)
-Architect and technology lead for Secret Enhancement Programme and Information Environment. This
- programme completely overhauls the NZDF's military operational ICT capability and will provide the
- technology foundations to ensure that fully participate in the information-driven warfare of today and do
- so in a highly secure manner. The solution I have designed is bleeding-edge and innovatory; it completely
- transforms the way that ICT is to be delivered within the organisation.
-A fully automated outcome to meet flexible military operational needs of the New Zealand Defence Force.
- The solution includes a datacenter backend and hosting for a variety of applications, through to a user
- desktop.
-Page 2
-Security of the solution was, of course, vital, and compliance to both local and international security
- standards was required.
-The solution was delivered using Ancible, Vagrant, Packer onto a VMWare virtualized environment. The
- code base was secured and managed using GitHub Enterprise.
+
 Technical Lead and Solution Architect at Datacom Systems (Wellington) Ltd
 February 2008 - June 2016 (8 years 4 months)
 Reporting at a senior GM level within the software division (S&I) of Datacom Systems Wellington I have
@@ -238,10 +214,6 @@ Page 8
 BDS:
 Developing EPG schedule data handling system for upload to DTV customers.
 Education
-University of York
-MSc, Computer Science, 1998 - 1999
-University of York
-BA (Hons), Literature, 1995 - 1998
 Page 9
 Michael Clarke
 Writer and Technologist
