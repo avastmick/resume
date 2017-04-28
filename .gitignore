@@ -1,0 +1,6 @@
+*.tuc
+*.log
+resume.tex
+*.swo
+*.swp
+*Thumbs.db
