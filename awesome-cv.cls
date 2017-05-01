@@ -17,7 +17,6 @@
 % LPPL v1.3c (http://www.latex-project.org/lppl)
 %
 
-
 %-------------------------------------------------------------------------------
 %                Identification
 %-------------------------------------------------------------------------------
@@ -75,6 +74,8 @@
 % Needed to use icons from font-awesome
 % (https://github.com/posquit0/latex-fontawesome)
 \RequirePackage{fontawesome}
+% Use the titlesec package to modify the base headings etc
+\RequirePackage{titlesec}
 \RequirePackage[default,opentype]{sourcesanspro}
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
@@ -155,7 +156,6 @@
 \def\@sectioncolor#1#2#3{%
   \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2#3}}{#1#2#3}%
 }
-
 
 %-------------------------------------------------------------------------------
 %                Configuration for fonts
@@ -359,8 +359,6 @@
   \ifthenelse{\equal{#1}{}}{}{\def\@letterenclname{#1}}
   \def\@letterenclosure{#2}
 }
-
-
 %-------------------------------------------------------------------------------
 %                Commands for extra
 %-------------------------------------------------------------------------------
@@ -533,8 +531,12 @@
   \vspace{\acvSectionTopSkip}
   \sectionstyle{#1}
   \phantomsection
-  \color{gray}\vhrulefill{0.9pt}
+  \color{awesome}\vhrulefill{0.9pt}
 }
+
+% Map standard Pandoc section to cvsection
+\titleformat*{\section}{\cvsection}
+
 
 % Define a subsection for CV
 % Usage: \cvsubsection{<subsection-title>}
@@ -544,6 +546,8 @@
   \subsectionstyle{#1}
   \phantomsection
 }
+% Map standard Pandoc section to cvsection
+\titleformat*{\subsection}{\cvsubsection}
 
 % Define a paragraph for CV
 \newenvironment{cvparagraph}{%
@@ -554,6 +558,8 @@
   \par
   \vspace{2mm}
 }
+
+%
 
 % Define an environment for cventry
 \newenvironment{cventries}{%
@@ -576,6 +582,9 @@
     \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
   \end{tabular*}%
 }
+
+% Modify the list style from default bullets
+\renewcommand{\labelitemi}{$-$}
 
 % Define an environment for cvsubentry
 \newenvironment{cvsubentries}{%
