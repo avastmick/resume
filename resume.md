@@ -48,6 +48,8 @@ position: 'Author, technologist, ICT specialist'
 -    \color{gray}Security of the solution was, of course, vital, and compliance to both local and international security standards was required.
 -    \color{gray}The solution was delivered using Ancible, Vagrant, Packer onto a VMWare virtualized environment. The code base was secured and managed using GitHub Enterprise.
 
+\pagebreak
+
 **Datacom Systems (Wellington) Ltd**
 
 *Technical Lead and Solution Architect*, February 2008 - June 2016
@@ -78,6 +80,8 @@ position: 'Author, technologist, ICT specialist'
 -   \color{gray}I also led the product development team to develop the product roadmap for RealMe and help shape what the product will become over the next couple of years and beyond, including how RealMe will become a viable information sharing platform.
 -   \color{gray}The technology for the solution is based on Open Source technologies used in a novel context.
 -   [realme.govt.nz](http://realme.govt.nz/)
+
+\pagebreak
 
 **Datacom Systems (Wellington) Ltd**
 

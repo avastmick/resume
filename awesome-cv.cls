@@ -589,6 +589,7 @@
 
 % Modify the list style from default bullets
 \renewcommand{\labelitemi}{$-$}
+% TODO: Work out way of setting item text to gray
 
 
 % Define an environment for cvsubentry
