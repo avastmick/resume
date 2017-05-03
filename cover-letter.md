@@ -10,8 +10,6 @@ github: avastmick
 linkedin: 'mickclarke138'
 twitter: avastmick
 position: 'Author, technologist, ICT specialist'
-quote: 'There is always another way - always.'
-
 recipient:
  who: 'Shanghai International School'
  where: 'Xuexie Lu 48, Pu Dong, Shanghai, China'

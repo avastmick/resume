@@ -590,6 +590,7 @@
 % Modify the list style from default bullets
 \renewcommand{\labelitemi}{$-$}
 
+
 % Define an environment for cvsubentry
 \newenvironment{cvsubentries}{%
   \begin{center}
