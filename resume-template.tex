@@ -52,6 +52,12 @@ $if(position)$
 \position{$position$} 
 $endif$
 
+% Add in the profile image
+$if(photo)$
+\photo[rectangle,edge,right]{$photo$} 
+$endif$
+% \photo[circle|rectangle,edge|noedge,left|right]{<path-to-image>}
+
 \makecvfooter{\today}{$name.first$ $name.last$~~~·~~~Résumé}{\thepage} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
 
 %----------------------------------------------------------------------------------------

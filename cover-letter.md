@@ -1,15 +1,15 @@
 ---
 name:
- first: 'Michael W'
- last: 'Clarke'
-address: 'Dongming Lu 511, Pu Dong, Shanghai, China'
-mobile: '+86 156 1858 7365'
-email: 'mick.clarke@outlook.com'
-homepage: 'www.avastmick.io'
-github: avastmick
-linkedin: 'mickclarke138'
-twitter: avastmick
-position: 'The job'
+ first: 'Your'
+ last: 'Name'
+address: 'A Street 123, An Area, Some City, Some Country'
+mobile: '+01 234 567 8910'
+email: 'your.name@provider.com'
+homepage: 'www.yourname.com'
+github: yourname
+linkedin: 'yourname'
+twitter: yourname
+position: 'The job you want'
 recipient:
  who: 'The place I will work'
  where: 'The address'

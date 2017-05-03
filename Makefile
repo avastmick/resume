@@ -1,8 +1,8 @@
 all: cv letter clean 
 
-CVNAME=MW-Clarke-Curriculum-Vitae-
+CVNAME=Curriculum-Vitae-
 CVFILE=$(CVNAME)$(shell date +'%Y-%b')
-COVERNAME=MW-Clarke-Cover-Letter-
+COVERNAME=Cover-Letter-
 COVERFILE=$(COVERNAME)$(shell date +'%Y-%b')
 
 cv: resume.pdf
